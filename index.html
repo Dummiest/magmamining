@@ -4,8 +4,8 @@
 	<link rel="apple-touch-icon" sizes="180x180" href="">
 	<link rel="icon" type="image/png" sizes="32x32" href="">
 	<link rel="icon" type="image/png" sizes="16x16" href="">
-	<link rel="manifest" href="https://survivewith.us/site.webmanifest">
-	<link rel="mask-icon" href="https://survivewith.us/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="manifest" href="">
+	<link rel="mask-icon" href="" color="#5bbad5">
 	<meta name="msapplication-TileColor" content="#da532c">
 	<meta name="theme-color" content="#ffffff">
 	<meta name="description" content="MagmaMining is a Skyblock Minecraft Server.">
@@ -18,7 +18,7 @@
 <body>
 	<div class="container">
 		<div class="logo">
-			<a href="https://MagmaMining.ga/forums" target="_blank"><img src="./index_files/logo.png" alt="MagmaMining logo"></a>
+			<a href="https://MagmaMining.ga/forums" target="_blank"><img src="./index_files/Magma.png" alt="MagmaMining logo"></a>
 		</div>
 
 		<div class="playercount">
@@ -48,7 +48,7 @@
       ping();
       
       function ping(){
-      MinecraftAPI.getServerStatus('mc.magmamining.ga', {}, function (err, status) {
+      MinecraftAPI.getServerStatus('79.67.51.101', {}, function (err, status) {
         if (err) {
           return document.querySelector('.players-online').innerHTML = '0';
         }
